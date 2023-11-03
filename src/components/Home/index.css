@@ -1,0 +1,110 @@
+.home-heading {
+    color: #2B2730;
+    font-family: Poppins;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 64px;
+    /* 114.286% */
+    letter-spacing: -1.4px;
+}
+
+.home-description {
+    color: #2B2730;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    /* 150% */
+    letter-spacing: -0.4px;
+    width: 508px;
+}
+
+.home-button {
+    display: flex;
+    padding: 16px 32px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-radius: 32px;
+    background: #2B2730;
+    color: #FFF;
+    border: 0px;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 20px;
+
+}
+
+.creatorImage {
+    width: 128px;
+    height: 128px;
+    flex-shrink: 0;
+}
+
+.creator-heading {
+    color: #2B2730;
+    font-family: Poppins;
+    font-size: 24px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 32px;
+    /* 133.333% */
+}
+
+.creator-description {
+    color: #2B2730;
+    margin-top: 0px;
+    padding-top: 0px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    /* 150% */
+}
+
+@media screen and (max-width: 768px) {
+    .home-heading {
+        color: #2B2730;
+        font-family: Poppins;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 40px;
+        /* 125% */
+        letter-spacing: -0.8px;
+        margin-top: 32px;
+        margin-bottom: 0px;
+    }
+
+    .home-description {
+        color: #2B2730;
+        font-family: Poppins;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 24px;
+        /* 150% */
+        letter-spacing: -0.4px;
+        width: 323px;
+        margin-top:0px;
+        margin-bottom: 0px;
+    }
+    .creatorImage{
+        width: 96px;
+height: 96.065px;
+    }
+    .creator-heading{
+        text-align: center;
+        line-height: 10px;
+    }
+    .creator-description{
+        font-size: 16px;
+    }
+}

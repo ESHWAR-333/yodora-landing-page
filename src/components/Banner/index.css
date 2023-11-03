@@ -1,0 +1,134 @@
+.circle-content-heading {
+    color: #FFFFFF;
+    font-family: Poppins;
+    font-size: 39.36px;
+    font-style: normal;
+    font-weight: 700;
+    background-color: #2B2730;
+    /* line-height: normal; */
+}
+
+.circle-content {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 19.68px;
+    font-style: normal;
+    font-weight: 700;
+    background-color: #2B2730;
+    /* line-height: normal; */
+}
+
+.heading-highlight {
+    color: #FFB84C;
+    font-family: Poppins;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 80px;
+
+}
+
+
+
+.circle-container {
+    display: flex;
+    width: 164px;
+    height: 164px;
+    padding: 37.5px 27.5px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    border-radius: 164px;
+    text-align: center;
+    background-color: #2B2730;
+}
+
+
+.banner-heading-container {
+    display: flex;
+
+}
+
+.sub-heading-highlight {
+    background-color: #2B2730;
+    color: #FFB84C;
+    font-family: Poppins;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 72px;
+    /* 112.5% */
+    letter-spacing: -1.6px;
+
+}
+
+.second-sub-container {
+    background-color: #2B2730;
+
+}
+
+
+@media screen and (max-width: 768px) {
+    .heading-highlight {
+        color: #FFB84C;
+        font-family: Poppins;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 40px;
+    }
+
+    .banner-heading-container {
+        width: 328px;
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .circle-container {
+        display: flex;
+        width: 100px;
+        height: 100px;
+        padding: 18.75px 13.25px 18.75px 13.75px;
+        justify-content: center;
+        align-items: center;
+        flex-shrink: 0;
+        border-radius: 82px;
+        background: #2B2730;
+        
+    }
+
+    .circle-content-heading {
+        color: #FFF;
+font-family: Poppins;
+font-size: 19.68px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+    }
+
+    .circle-content{
+        color: #FFF;
+        font-family: Poppins;
+        font-size: 9.84px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+
+    .sub-heading-highlight {
+        color: #FFB84C;
+        font-family: Poppins;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 40px;
+        /* 125% */
+        letter-spacing: -0.8px;
+    }
+    .arrow-img{
+        width: 32px;
+height: 32px;
+    }
+
+}
